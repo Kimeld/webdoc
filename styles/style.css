@@ -1,10 +1,162 @@
 /*home*/
 
-.sectionHome {
-    background-color: gray;
-    text-align: center;
-    margin-top: 5%;
-    color: white;
-    height: 800px;
+body {
+    margin: 0px;
+    padding: 0px;
+}
 
+
+.background {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    background-color: black;
+    /*background-image: url(image/Bitmap.png) margin: 0px;*/
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.background img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.sectionHome {
+    width: 100%;
+    height: 800px;
+}
+
+.circle {
+    margin-top: 4%;
+    border: solid;
+    border-color: white;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 18%;
+    transition-property: transform;
+    transition-duration: 2s;
+    transform: scale(1.1, 1.1)
+}
+
+.transitionUp {
+
+    transition-duration: 2s;
+    transform: translateY(-900px);
+    transition-timing-function: ease-in-out;
+
+}
+
+@font-face {
+    font-family: 'Futura-Bold';
+    src: url('../police/FuturaStd-Bold.otf');
+
+}
+
+@font-face {
+    font-family: 'Futura-Medium';
+    src: url('../police/FuturaStd-Medium.otf');
+
+}
+
+.circle h1 {
+    color: white;
+    font-size: 60px;
+    font-family: 'Futura-bold';
+    letter-spacing: 1.35px;
+
+}
+
+.circle h2 {
+    color: white;
+    font-family: 'Futura-medium';
+    letter-spacing: 1.35px;
+
+}
+
+.slideButton {
+    position: relative;
+}
+
+/*ARROW*/
+
+.arrow {
+    width: 70px;
+    height: 700px;
+    position: relative;
+    position: absolute;
+    margin: auto;
+    right: 42%;
+}
+
+.arrow .vertical-line-1 {
+    position: absolute;
+    width: 3px;
+    height: 35px;
+    border-left: 2px solid white;
+    left: 30%;
+    opacity: 0.4;
+}
+
+.arrow .vertical-line-2 {
+    position: absolute;
+    width: 3px;
+    height: 35px;
+    border-left: 2px solid white;
+    left: 30%;
+    top: 8%;
+    opacity: 0.6;
+
+
+}
+
+.arrow .vertical-line-3 {
+    position: absolute;
+    width: 3px;
+    height: 35px;
+    border-left: 2px solid white;
+    left: 30%;
+    top: 16%;
+}
+
+.arrow .down-arrow-1 {
+    position: absolute;
+    width: 80%;
+    right: 25%;
+    top: 20%;
+    animation: arrow-mouvement 0.8s 0.3s infinite alternate;
+}
+
+@keyframes arrow-mouvement {
+    0% {
+        top: 20%;
+        opacity: 0;
+    }
+    100% {
+        top: 22%;
+        opacity: 0.8;
+    }
+}
+
+.arrow .down-arrow-2 {
+    position: absolute;
+    width: 80%;
+    right: 25%;
+    top: 22%;
+    animation: arrow-mvt 0.8s 0s infinite alternate;
+}
+
+@keyframes arrow-mvt {
+    0% {
+        top: 22%;
+        opacity: 0;
+    }
+    100% {
+        top: 24%;
+        opacity: 0.8;
+    }
 }
