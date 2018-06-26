@@ -24,7 +24,7 @@
 
 h1
 {
-  top: 14%;
+  top: 12%;
   position: absolute;
   text-align: center;
   font-size: 70px;
@@ -34,4 +34,78 @@ h1
   Line-Height: 96px;
 }
 
+.description
+{
+  position: absolute;
+  visibility: hidden;
+}
 
+/*  TEMOIGNAGES */ 
+
+.round
+{
+  position: absolute;
+  margin: 14% 35%;
+  width: 28%;
+  height: 51%;
+  border-radius: 100%;
+  background-image: radial-gradient(rgba(125, 211, 33, 0.346), #21D3B3);
+}
+
+.text
+{
+  color: #ffffff;
+  width: 70%;
+  height: 20%;
+  font-Family: 'Futura Std';
+  font-Size: 14px;  
+  line-Height: 20px;  
+  text-align: center;
+  opacity: 0;
+}
+
+.person1
+{
+  margin-top: -3%;
+}
+
+.text1
+{
+  visibility: hidden;
+}
+
+.person2
+{
+  margin-left:45%;
+}
+
+.person3
+{
+  margin-left:40%;
+  margin-top: 10%;
+}
+
+.person4
+{
+  margin-left:0%;
+  margin-top: -1%;
+}
+
+.person5
+{
+  margin-left:-40%;
+  margin-top: -23%;
+}
+
+.person6
+{
+  margin-left:-45%;
+  margin-top: -33%;
+}
+
+
+
+
+
+
+/* HISTOIRE */ 
