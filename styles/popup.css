@@ -1,3 +1,21 @@
+/* button + */
+
+.help{
+    display:inline-block;
+    margin-top: 50%;
+}
+
+.help2{
+    display:inline-block;
+    margin-left:240px;
+    margin-right:240px;
+    margin-top: 50%;
+
+}
+
+/* TEMOIGNAGES */
+
+
 .overlay {
     position: fixed;
     top: 0;
@@ -15,18 +33,17 @@
     opacity: 1;
 }
 
-.popup {
-    margin: 70px auto;
+.temoignage {
+    margin: 40px auto;
     padding: 20px;
-    background: #fff;
     border-radius: 5px;
-    width: 30%;
-    height: 70%;
+    width: 90%;
+    height: 90%;
     position: relative;
     transition: all 5s ease-in-out;
 }
 
-.popup .close {
+.temoignage .close {
     position: absolute;
     top: 20px;
     right: 30px;
@@ -34,14 +51,14 @@
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
 }
 
-.popup .close:hover {
+.temoignage .close:hover {
     color: #06D85F;
 }
 
-.popup .content {
+.temoignage .content {
     max-height: 30%;
     overflow: auto;
     text-align: center;
@@ -52,7 +69,141 @@ button:hover {
     background-image: radial-gradient(circle at center, red 0%, blue 50%);
 }
 
+.textPopup {
+    color: black;
+}
 
+.round
+{
+    position: absolute;
+    margin: 10% 35%;
+    width: 25%;
+    height: 50%;
+    border-radius: 50%;
+    background-image: radial-gradient(rgba(125, 211, 33, 0.346), #21D3B3);
+}
+
+
+
+
+/* HISTOIRE */
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.histoire {
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.histoire .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.histoire .close:hover {
+    color: #06D85F;
+}
+
+.histoire .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
+
+.textPopup {
+    color: black;
+}
+
+
+/* BIEN-FAITS */
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.bienfaits {
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.bienfaits .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.bienfaits .close:hover {
+    color: #06D85F;
+}
+
+.bienfaits .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
 
 .textPopup {
     color: black;
