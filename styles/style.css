@@ -40,7 +40,7 @@ body {
     padding-top: 18%;
     transition-property: transform;
     transition-duration: 2s;
-    transform: scale(1.1, 1.1)
+    transform: scale(0, 9, 0, 9)
 }
 
 .transitionUp {
@@ -94,29 +94,31 @@ body {
 
 .arrow {
     width: 90px;
-    height: 400px;
+    height: 150px;
     position: relative;
     position: absolute;
     padding: 0px;
-    right: 2%;
+    right: 42%;
+    top: 75%
 }
 
 .arrow .vertical-line-1 {
     position: absolute;
     width: 3px;
-    height: 35px;
+    height: 20px;
     border-left: 2px solid white;
     left: 43%;
     opacity: 0.4;
+    top: 0%
 }
 
 .arrow .vertical-line-2 {
     position: absolute;
     width: 3px;
-    height: 35px;
+    height: 20px;
     border-left: 2px solid white;
     left: 43%;
-    top: 8%;
+    top: 18%;
     opacity: 0.6;
 
 
@@ -125,17 +127,17 @@ body {
 .arrow .vertical-line-3 {
     position: absolute;
     width: 3px;
-    height: 35px;
+    height: 20px;
     border-left: 2px solid white;
     left: 43%;
-    top: 16%;
+    top: 36%;
 }
 
 .arrow .down-arrow-1 {
     position: absolute;
     width: 48px;
     right: 30%;
-    top: 50px;
+    transform: translateY(40px);
     animation: arrow-mouvement 0.8s 0.3s infinite alternate;
 }
 
@@ -156,6 +158,7 @@ body {
     right: 30%;
     top: 22%;
     animation: arrow-mvt 0.8s 0s infinite alternate;
+    transform: translateY(60px);
 }
 
 @keyframes arrow-mvt {
@@ -201,6 +204,6 @@ body {
     letter-spacing: 0.9px;
 }
 
-.introText a{
+.introText a {
     text-decoration: none;
 }
