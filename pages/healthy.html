@@ -3,23 +3,72 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Healthy</title>
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/bootstrap.min.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <title>Trapologue</title>
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/popup.css" />
 </head>
 
 <body>
-<div class="container-fluid">
-    <div class="sectionHome col-lg-offset-2 col-lg-8">
-        <h1>Healthy</h1>
+
+<div class="background">
+    <img src="../images/healthy.png" alt=""/>
+    <div class="test title"></div>
+</div>
+
+    <div class="container-fluid">
+        <div class="sectionHome col-lg-offset-2 col-lg-8">
+<h1 class="test">HEALTHY MOOD</h1>
+
+<div class="container">
+
+            <!-- Témoignages -->
+            <div class="help">
+                <a href="#popup1" title="help"><img src="../images/plus.png" alt="" width="90px"/></a>
+            </div>
+
+            <div id="popup1" class="overlay">
+                <div class="temoignage">
+                    <a class="close" href="#">&times;</a>
+                    <div class="textPopup">
+                    <div class="round"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Histoire -->
+            <div class="help help2">
+                <a href="#popup2" title="help"><img src="../images/plus.png" alt="" width="90px"/></a>
+            </div>
+
+            <div id="popup2" class="overlay">
+                <div class="histoire">
+                    <a class="close" href="#">&times;</a>
+                    <div class="textPopup">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bien-faits -->
+            <div class="help">
+                <a href="#popup3" title="help"><img src="../images/plus.png" alt="" width="90px"/></a>
+            </div>
+
+            <div id="popup3" class="overlay">
+                <div class="bienfaits">
+                    <a class="close" href="#">&times;</a>
+                    <div class="textPopup">
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </div>
 
-
-
-    <script src="scripts/bootstrap.min.js"></script>
-    <script src="scripts/script.js"></script>
+    <script src="../scripts/bootstrap.min.js"></script>
+    <script src="../scripts/script.js"></script>
 </body>
 
 </html>
