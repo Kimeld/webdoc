@@ -67,16 +67,24 @@ h1
 .person1
 {
   margin-top: -3%;
+    
 }
 
-.text1
+.person1 img{
+    opacity: 0.3;
+}
+.opacity
 {
-  visibility: hidden;
+  opacity: 0;
 }
 
 .person2
 {
   margin-left:45%;
+}
+
+.person2 img{
+    opacity: 0.3;
 }
 
 .person3
@@ -85,10 +93,18 @@ h1
   margin-top: 10%;
 }
 
+.person3 img{
+    opacity: 0.3;
+}
+
 .person4
 {
   margin-left:0%;
   margin-top: -1%;
+}
+
+.person4 img{
+    opacity: 0.3;
 }
 
 .person5
@@ -97,13 +113,50 @@ h1
   margin-top: -23%;
 }
 
+.person5 img{
+    opacity: 0.3;
+}
+
 .person6
 {
   margin-left:-45%;
   margin-top: -33%;
 }
 
+.person6 img{
+    opacity: 0.3;
+}
 
+.person1 img:hover{
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+
+.person2 img:hover{
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.person3 img:hover{
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.person4 img:hover{
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.person5 img:hover{
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.person6 img:hover{
+    opacity: 1;
+    transition-duration: 1s;
+}
 
 
 
