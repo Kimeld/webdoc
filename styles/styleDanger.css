@@ -1,6 +1,12 @@
+body{
+    background-color: black;
+}
+
 .chimic {
     height: 800px;
-    background-image: url(../images/Bitmap.png);
+    background-image: url(../images/degradation_sol.jpg);
+    background-position: center;
+    opacity: 0.3;
     transition-duration: 2s;
     text-align: center;
     border: solid;
@@ -9,27 +15,41 @@
 
 .monoculture {
     height: 800px;
-    background-image: url(../images/Bitmap.png);
+    background-image: url(../images/deforestation.jpg);
+    background-repeat: no-repeat;
     transition-duration: 2s;
     text-align: center;
     border: solid;
+    opacity: 0.3;
 
 }
 
 .biodiverity {
     height: 800px;
-    background-image: url(../images/Bitmap.png);
+    background-image: url(../images/biodiversite.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
     transition-duration: 2s;
     text-align: center;
     border: solid;
+    opacity: 0.3;
 }
 
 .ground {
     height: 800px;
-    background-image: url(../images/Bitmap.png);
+    background-image: url(../images/agrochimie.jpg);
     transition-duration: 2s;
     text-align: center;
     border: solid;
+    opacity: 0.3;
+}
+
+.row h1{
+    color: white;
+}
+
+.row .ground h1{
+    color: black;
 }
 
 
@@ -54,22 +74,22 @@
 }
 
 .chimic:hover {
-    opacity: 0.4;
+    opacity: 1;
     transition-duration: 1s;
 }
 
 .monoculture:hover {
-    opacity: 0.4;
+    opacity: 1;
     transition-duration: 1s;
 }
 
 .biodiverity:hover {
-    opacity: 0.4;
+    opacity: 1;
     transition-duration: 1s;
 }
 
 .ground:hover {
-    opacity: 0.4;
+    opacity: 1;
     transition-duration: 1s;
 }
 
@@ -136,6 +156,7 @@ button:hover {
 .defoImg {
     width: 50%;
     display: inline-block;
+    transition-duration: 2s;
 }
 
 .defoImg img {
@@ -143,6 +164,8 @@ button:hover {
     height: 100%;
 
 }
+
+
 
 .text {
     position: absolute;
@@ -156,6 +179,7 @@ button:hover {
     border-bottom-left-radius: 5px;
     text-align: center;
     padding: 10px;
+    transition-duration: 2s;
 
 }
 
@@ -169,15 +193,15 @@ button:hover {
     top: 90%;
     left: 94.5%;
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     padding-left: 2.3px;
     padding-top: 6px;
 }
 
 .circlePopup img {
-    width: 60px;
+    width: 50px;
 
 
 }
@@ -188,15 +212,15 @@ button:hover {
     top: 80%;
     left: 94.5%;
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     padding-left: 2.3px;
     padding-top: 6px;
 }
 
 .circlePopup2 img {
-    width: 60px;
+    width: 50px;
 
 
 }
@@ -209,4 +233,14 @@ button:hover {
 .circlePopup:hover {
     opacity: 0.3;
     transition-duration: 0.3s;
+}
+
+.moveUpImage{
+    transform: translateY(-900px);
+    transition-duration: 2s;
+}
+
+.moveDownText{
+    transform: translateY(900px);
+    transition-duration: 2s;
 }
