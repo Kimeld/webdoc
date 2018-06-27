@@ -1,0 +1,87 @@
+.chimic {
+    height: 800px;
+    background-image: url(../images/Bitmap.png);
+    transition-duration: 2s;
+
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    margin: 100% auto;
+    border: solid;
+    border-color: white;
+    border-radius: 50px;
+    position: relative;
+
+
+}
+
+.circle img {
+    position: absolute;
+    width: 60px;
+    top: 5px;
+    left: 3px;
+
+}
+
+.chimic:hover {
+    opacity: 0.4;
+    transition-duration: 1s;
+}
+
+/*popup*/
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 90%;
+    height: 80%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
