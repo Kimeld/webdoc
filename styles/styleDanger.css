@@ -55,7 +55,7 @@ body{
 
 .ground {
     height: 800px;
-    background-image: url(../images/agrochimie.jpg);
+    background-image: url(../images/agrochimie.png);
     transition-duration: 2s;
     text-align: center;
     border: solid;
@@ -177,6 +177,7 @@ button:hover {
     width: 50%;
     display: inline-block;
     transition-duration: 2s;
+    position: relative;
 }
 .defoImg2 {
     right: 50%;
@@ -282,22 +283,150 @@ button:hover {
     transition-duration: 0.3s;
 }
 
+/*transform popup*/
 .moveUpImage{
-    transform: translateY(-900px);
+    transform: translateY(-100vw);
     transition-duration: 2s;
 }
 
 .moveDownText{
-    transform: translateY(900px);
+    transform: translateY(100vw);
     transition-duration: 2s;
 }
 
 .moveUpImage2{
-    transform: translateY(900px);
+    transform: translateY(100vw);
     transition-duration: 2s;
 }
 
 .moveDownText2{
-    transform: translateY(-900px);
+    transform: translateY(-100vw);
     transition-duration: 2s;
 }
+
+.opacityButton{
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+
+
+
+/*mono popup*/
+
+.defoImg3 {
+    width: 50%;
+    display: inline-block;
+    transition-duration: 2s;
+    position: relative;
+}
+.defoImg4 {
+    right: 50%;
+    display: inline-block;
+    transition-duration: 2s;
+    position: relative;
+}
+
+.defoImg3 img {
+    border-radius: 5px;
+    height: 100%;
+
+}
+
+
+
+.text3 {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 46%;
+    width: 54%;
+    height: 100%;
+    margin-top: 10%;
+    /*background-color: red;*/
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    transition-duration: 2s;
+
+}
+
+
+.text3 p {
+    font-size: 15px;
+}
+
+.text4 {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 46%;
+    width: 54%;
+    height: 100%;
+    margin-top: 10%;
+    /*background-color: red;*/
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    padding: 50px;
+    transition-duration: 2s;
+
+}
+
+.text4 p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.circlePopup3 {
+    border: solid;
+
+    top: 90%;
+    left: 94.5%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-left: 2.3px;
+    padding-top: 6px;
+}
+
+.circlePopup3 img {
+    width: 50px;
+
+
+}
+
+.circlePopup4 {
+    border: solid;
+    transform: rotate(180deg);
+    top: 80%;
+    left: 94.5%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-left: 2.3px;
+    padding-top: 6px;
+}
+
+.circlePopup4 img {
+    width: 50px;
+
+
+}
+
+.circlePopup4:hover {
+    opacity: 0.3;
+    transition-duration: 0.3s;
+}
+
+.circlePopup3:hover {
+    opacity: 0.3;
+    transition-duration: 0.3s;
+}
+
