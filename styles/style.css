@@ -40,7 +40,7 @@ body {
     padding-top: 18%;
     transition-property: transform;
     transition-duration: 2s;
-    transform: scale(0, 9, 0, 9)
+    transform: scale(0.7, 0.7)
 }
 
 .transitionUp {

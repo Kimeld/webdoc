@@ -1,10 +1,10 @@
-let slideButton = document.querySelector(".slideButton")
+let buttonIntro = document.querySelector(".buttonIntro")
 let circle = document.querySelector(".circle")
 let introText = document.querySelector(".introText")
 
 
-slideButton.addEventListener('click', () => {
-    console.log(slideButton)
+buttonIntro.addEventListener('click', () => {
+    console.log(buttonIntro)
     circle.classList.add('transitionUp');
     introText.classList.add('transitionOpacity');
 
