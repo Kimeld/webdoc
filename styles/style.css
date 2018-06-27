@@ -31,9 +31,10 @@ body {
 
 .circle {
     margin-top: 4%;
+    
     border: solid;
     border-color: white;
-    width: 700px;
+    width: 750px;
     height: 700px;
     border-radius: 50%;
     text-align: center;

@@ -3,8 +3,35 @@
     background-image: url(../images/Bitmap.png);
     transition-duration: 2s;
     text-align: center;
+    border: solid;
 
 }
+
+.monoculture {
+    height: 800px;
+    background-image: url(../images/Bitmap.png);
+    transition-duration: 2s;
+    text-align: center;
+    border: solid;
+
+}
+
+.biodiverity {
+    height: 800px;
+    background-image: url(../images/Bitmap.png);
+    transition-duration: 2s;
+    text-align: center;
+    border: solid;
+}
+
+.ground {
+    height: 800px;
+    background-image: url(../images/Bitmap.png);
+    transition-duration: 2s;
+    text-align: center;
+    border: solid;
+}
+
 
 .circle {
     width: 70px;
@@ -31,6 +58,21 @@
     transition-duration: 1s;
 }
 
+.monoculture:hover {
+    opacity: 0.4;
+    transition-duration: 1s;
+}
+
+.biodiverity:hover {
+    opacity: 0.4;
+    transition-duration: 1s;
+}
+
+.ground:hover {
+    opacity: 0.4;
+    transition-duration: 1s;
+}
+
 /*popup*/
 
 .overlay {
@@ -51,12 +93,12 @@
 }
 
 .popup {
-    margin: 70px auto;
-    padding: 20px;
+    margin: 0px auto;
+    padding: 0px;
     background: #fff;
     border-radius: 5px;
     width: 90%;
-    height: 80%;
+    height: 100%;
     position: relative;
     transition: all 5s ease-in-out;
 }
@@ -70,10 +112,12 @@
     font-weight: bold;
     text-decoration: none;
     color: #333;
+    z-index: 1;
 }
 
 .popup .close:hover {
     color: #06D85F;
+
 }
 
 .popup .content {
@@ -85,4 +129,84 @@
 
 button:hover {
     background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
+
+/*deforestaion popup*/
+
+.defoImg {
+    width: 50%;
+    display: inline-block;
+}
+
+.defoImg img {
+    border-radius: 5px;
+    height: 100%;
+
+}
+
+.text {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 46%;
+    width: 54%;
+    height: 100%;
+    margin-top: 10%;
+    /*background-color: red;*/
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.text p {
+    font-size: 15px;
+}
+
+.circlePopup {
+    border: solid;
+
+    top: 90%;
+    left: 94.5%;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding-left: 2.3px;
+    padding-top: 6px;
+}
+
+.circlePopup img {
+    width: 60px;
+
+
+}
+
+.circlePopup2 {
+    border: solid;
+    transform: rotate(180deg);
+    top: 80%;
+    left: 94.5%;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding-left: 2.3px;
+    padding-top: 6px;
+}
+
+.circlePopup2 img {
+    width: 60px;
+
+
+}
+
+.circlePopup2:hover {
+    opacity: 0.3;
+    transition-duration: 0.3s;
+}
+
+.circlePopup:hover {
+    opacity: 0.3;
+    transition-duration: 0.3s;
 }
