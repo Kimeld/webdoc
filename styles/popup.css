@@ -48,14 +48,14 @@
     top: 20px;
     right: 30px;
     transition: all 200ms;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 70px;
+    font-weight: lighter;
     text-decoration: none;
     color: #ffffff;
 }
 
 .temoignage .close:hover {
-    color: #06D85F;
+    color: #ffffff;
 }
 
 .temoignage .content {
@@ -73,15 +73,6 @@ button:hover {
     color: black;
 }
 
-.round
-{
-    position: absolute;
-    margin: 10% 35%;
-    width: 25%;
-    height: 50%;
-    border-radius: 50%;
-    background-image: radial-gradient(rgba(125, 211, 33, 0.346), #21D3B3);
-}
 
 
 
