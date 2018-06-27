@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Futura-Bold';
+    src: url('../police/FuturaStd-Bold.otf');
+
+}
+
+@font-face {
+    font-family: 'Futura-Medium';
+    src: url('../police/FuturaStd-Medium.otf');
+
+}
+
+@font-face {
+    font-family: 'Futura-Book';
+    src: url('../police/FuturaStd-Book.otf');
+
+}
+
 body{
     background-color: black;
 }
@@ -46,6 +64,8 @@ body{
 
 .row h1{
     color: white;
+    font-family: Futura-Book;
+    
 }
 
 .row .ground h1{
@@ -158,6 +178,12 @@ button:hover {
     display: inline-block;
     transition-duration: 2s;
 }
+.defoImg2 {
+    right: 50.3%;
+    display: inline-block;
+    transition-duration: 2s;
+    position: relative;
+}
 
 .defoImg img {
     border-radius: 5px;
@@ -183,7 +209,28 @@ button:hover {
 
 }
 
+
 .text p {
+    font-size: 15px;
+}
+
+.text2 {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 46%;
+    width: 54%;
+    height: 100%;
+    margin-top: 10%;
+    /*background-color: red;*/
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    transition-duration: 2s;
+
+}
+
+.text2 p {
     font-size: 15px;
 }
 
@@ -242,5 +289,15 @@ button:hover {
 
 .moveDownText{
     transform: translateY(900px);
+    transition-duration: 2s;
+}
+
+.moveUpImage2{
+    transform: translateY(900px);
+    transition-duration: 2s;
+}
+
+.moveDownText2{
+    transform: translateY(-900px);
     transition-duration: 2s;
 }
