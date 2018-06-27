@@ -3,23 +3,94 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Aliments</title>
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/bootstrap.min.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <title>Trapologue</title>
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="../styles/popup.css" />
+    <link rel="stylesheet" href="../styles/aliments.css" />
 </head>
 
 <body>
-<div class="container-fluid">
-    <div class="sectionHome col-lg-offset-2 col-lg-8">
-        <h1>Aliments</h1>
+
+<div class="background">
+    <img src="../images/aliments.png" alt=""/>
+    <div class="test title"></div>
+</div>
+
+    <div class="container-fluid">
+        <div class="sectionHome col-lg-offset-2 col-lg-8">
+<h1 class="test">Découvre les aliments "Healthy"</h1>
+
+<div class="container">
+
+            <!-- POP UP Témoignages -->
+            <a href="#popup1" title="help">
+            <div class="help">
+                <img src="../images/plus.png" alt="" width="80px"/>
+                <div class="description">Témoignages</div>
+            </div>
+            </a>
+
+            <div id="popup1" class="overlay">
+                <div class="temoignage">
+                    <a class="close" href="#">&times;</a>
+                    
+            <!-- PERSONNAGES -->
+            <div class="personnages">
+                    <div class="round">
+                        <p class="text1"></p>
+                    </div>
+
+                    <div class="person1"><img src="../images/person1.png" alt="marie" width="130px"/></div>
+                    <div class="person2"><img src="../images/person2.png" alt="marie" width="130px"/></div>
+                    <div class="person3"><img src="../images/person3.png" alt="marie" width="130px"/></div>
+                    <div class="person4"><img src="../images/person4.png" alt="marie" width="130px"/></div>
+                    <div class="person5"><img src="../images/person4.png" alt="marie" width="130px"/></div>
+                    <div class="person6"><img src="../images/person4.png" alt="marie" width="130px"/></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Histoire -->
+            <a href="#popup2" title="help">
+            <div class="help help2">
+                <img src="../images/plus.png" alt="" width="80px"/>
+            </div>
+            </a>
+
+            <div id="popup2" class="overlay">
+                <div class="histoire">
+                    <a class="close" href="#">&times;</a>
+                    <div class="textPopup">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bien-faits -->
+            <a href="#popup3" title="help">
+            <div class="help">
+                <img src="../images/plus.png" alt="" width="80px"/>
+            </div>
+            </a>
+
+            <div id="popup3" class="overlay">
+                <div class="bienfaits">
+                    <a class="close" href="#">&times;</a>
+                    <div class="textPopup">
+                    </div>
+                </div>
+            </div>
+
+<div class="continue"><a href="../pages/ecologie.html">Continuer</a></div>
+<div class="precedent"><a href="../pages/healthy.html">Précédent</a></div>
+
+        </div>
     </div>
 </div>
 
-
-
-    <script src="scripts/bootstrap.min.js"></script>
-    <script src="scripts/script.js"></script>
+    <script src="../scripts/bootstrap.min.js"></script>
+    <script src="../scripts/script.js"></script>
 </body>
 
 </html>
+
