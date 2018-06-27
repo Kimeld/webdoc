@@ -137,7 +137,7 @@ body{
     padding: 0px;
     background: #fff;
     border-radius: 5px;
-    width: 90%;
+    width: 100%;
     height: 100%;
     position: relative;
     transition: all 5s ease-in-out;
@@ -179,7 +179,7 @@ button:hover {
     transition-duration: 2s;
 }
 .defoImg2 {
-    right: 50.3%;
+    right: 50%;
     display: inline-block;
     transition-duration: 2s;
     position: relative;
@@ -225,7 +225,7 @@ button:hover {
     /*background-color: red;*/
     border-bottom-left-radius: 5px;
     text-align: center;
-    padding: 10px;
+    padding: 50px;
     transition-duration: 2s;
 
 }
