@@ -207,6 +207,7 @@ button:hover {
     text-align: center;
     padding: 10px;
     transition-duration: 2s;
+    
 
 }
 
@@ -426,6 +427,242 @@ button:hover {
 }
 
 .circlePopup3:hover {
+    opacity: 0.3;
+    transition-duration: 0.3s;
+}
+
+/*BIO popup*/
+
+.defoImg5 {
+    width: 50%;
+    display: inline-block;
+    transition-duration: 2s;
+    position: relative;
+}
+.defoImg6 {
+    right: 50%;
+    display: inline-block;
+    transition-duration: 2s;
+    position: relative;
+}
+
+.defoImg5 img {
+    border-radius: 5px;
+    height: 100%;
+
+}
+
+
+
+.text5 {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 46%;
+    width: 54%;
+    height: 100%;
+    margin-top: 10%;
+    /*background-color: red;*/
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    transition-duration: 2s;
+
+}
+
+
+.text5 p {
+    font-size: 15px;
+}
+
+.text6 {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 46%;
+    width: 54%;
+    height: 100%;
+    margin-top: 10%;
+    /*background-color: red;*/
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    padding: 50px;
+    transition-duration: 2s;
+
+}
+
+.text6 p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.circlePopup5 {
+    border: solid;
+
+    top: 90%;
+    left: 94.5%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-left: 2.3px;
+    padding-top: 6px;
+}
+
+.circlePopup5 img {
+    width: 50px;
+
+
+}
+
+.circlePopup6 {
+    border: solid;
+    transform: rotate(180deg);
+    top: 80%;
+    left: 94.5%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-left: 2.3px;
+    padding-top: 6px;
+}
+
+.circlePopup6 img {
+    width: 50px;
+
+
+}
+
+.circlePopup6:hover {
+    opacity: 0.3;
+    transition-duration: 0.3s;
+}
+
+.circlePopup5:hover {
+    opacity: 0.3;
+    transition-duration: 0.3s;
+}
+
+/*dégra popup*/
+
+.defoImg7 {
+    width: 50%;
+    display: inline-block;
+    transition-duration: 2s;
+    position: relative;
+}
+.defoImg8 {
+    right: 50%;
+    display: inline-block;
+    transition-duration: 2s;
+    position: relative;
+}
+
+.defoImg7 img {
+    border-radius: 5px;
+    height: 100%;
+
+}
+
+
+
+.text7 {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 46%;
+    width: 54%;
+    height: 100%;
+    margin-top: 10%;
+    /*background-color: red;*/
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    transition-duration: 2s;
+
+}
+
+
+.text7 p {
+    font-size: 15px;
+}
+
+.text8 {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 46%;
+    width: 54%;
+    height: 100%;
+    margin-top: 10%;
+    /*background-color: red;*/
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    padding: 50px;
+    transition-duration: 2s;
+
+}
+
+.text8 p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.circlePopup7 {
+    border: solid;
+
+    top: 90%;
+    left: 94.5%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-left: 2.3px;
+    padding-top: 6px;
+}
+
+.circlePopup7 img {
+    width: 50px;
+
+
+}
+
+.circlePopup8 {
+    border: solid;
+    transform: rotate(180deg);
+    top: 80%;
+    left: 94.5%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-left: 2.3px;
+    padding-top: 6px;
+}
+
+.circlePopup8 img {
+    width: 50px;
+
+
+}
+
+.circlePopup8:hover {
+    opacity: 0.3;
+    transition-duration: 0.3s;
+}
+
+.circlePopup7:hover {
     opacity: 0.3;
     transition-duration: 0.3s;
 }
