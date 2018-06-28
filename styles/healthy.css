@@ -64,6 +64,10 @@ h1
     opacity: 1;
 }
 
+/* BUTTON */
+
+
+
 /* POP UP */
 
 
@@ -313,21 +317,21 @@ padding-top: 2%;
 
 .continue
 {
-  background-color: #F73361;
-  width: 20%;
   position: absolute;
-  border-radius: 20px;
+  border: solid 1px #fff;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 0px;
+  padding-left: 20px;
   padding-right: 20px;
-  margin-left: 108%;
-  margin-top: 20%;
+  margin-left: 105%;
+  margin-top: 23%;
+  color: #fff;
 }
 
 .continue:hover
 {
-background: rgb(219, 46, 86);
+    background-color: #fff;
+    color: #000;
 }
 
 .continue a
@@ -340,20 +344,15 @@ background: rgb(219, 46, 86);
 .precedent
 {
   position: absolute;
-  width: 20%;
-  background-color: #F73361;
-  border-radius: 20px;
+  border: solid 1px #fff;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 30px;
+  padding-left: 20px;
   padding-right: 20px;
-  margin-left: -34%;
-  margin-top: 20%;
-}
+  margin-top: 23%;
+  margin-left: -25%;
 
-.precedent:hover
-{
-  background: rgb(219, 46, 86);
+  color: #fff;
 }
 
 .precedent a
@@ -361,6 +360,12 @@ background: rgb(219, 46, 86);
   color: #ffffff;
   text-decoration: none;
   font-family: "Futura";
+}
+
+.precedent:hover
+{
+    background-color: #fff;
+    color: #000;
 }
 
 /* ANIMATIONS */
