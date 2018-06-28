@@ -36,6 +36,7 @@ h1
 
 .description1
 {
+  opacity: 0;
   position: absolute;
   color: #ffffff;
   font-size: 20px;
@@ -45,6 +46,7 @@ h1
 
 .description2
 {
+  opacity: 0;
   position: absolute;
   color: #ffffff;
   font-size: 20px;
@@ -55,6 +57,11 @@ h1
 .description a
 {
   text-decoration: none;
+}
+
+.help:hover .description
+{
+    opacity: 1;
 }
 
 /* POP UP */
