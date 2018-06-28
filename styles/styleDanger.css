@@ -33,7 +33,7 @@ body {
 
 .monoculture {
     height: 800px;
-    background-image: url(../images/deforestation.jpg);
+    background-image: url(../images/agrochimie.png);
     background-repeat: no-repeat;
     transition-duration: 2s;
     text-align: center;
@@ -55,7 +55,8 @@ body {
 
 .ground {
     height: 800px;
-    background-image: url(../images/agrochimie.png);
+
+    background-image: url(../images/deforestation.jpg);
     transition-duration: 2s;
     text-align: center;
     border: solid;
@@ -69,7 +70,7 @@ body {
 }
 
 .row .ground h1 {
-    color: black;
+    color: white;
 }
 
 
