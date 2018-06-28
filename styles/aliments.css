@@ -5,6 +5,10 @@ body
     overflow-x: hidden;
 }
 
+a{
+    text-decoration: none;
+}
+
 .background img
 {
   width: 100%;
@@ -26,13 +30,20 @@ h1
 .continue
 {
   position: absolute;
-  background-color: #F73361;
-  border-radius: 5%;
+  border: solid 1px #fff;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-left: 92%;
+  margin-left: 88%;
+  top: 92%;
+  color: #fff;
+}
+
+.continue:hover
+{
+    background-color: #fff;
+    color: #000;
 }
 
 .continue a
@@ -41,16 +52,17 @@ h1
   text-decoration: none;
   font-family: "Futura";
 }
-
 .precedent
 {
   position: absolute;
-  background-color: #F73361;
-  border-radius: 5%;
+  border: solid 1px #fff;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
+  top: 92%;
+  left: 3%;
+  color: #fff;
 }
 
 .precedent a
@@ -58,6 +70,25 @@ h1
   color: #ffffff;
   text-decoration: none;
   font-family: "Futura";
+}
+
+.precedent:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.title 
+{
+    position: absolute;
+    color: #fff;
+    font-family: "Futura";
+    margin-top: 4%;
+    margin-left: 10%;
+    background-color: #000;
+    opacity: 0.7;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
@@ -504,7 +535,7 @@ button:hover {
 .poisson
 {
 top: 60%;
-left:50%;
+left:47%;
 }
 
 .pointpoisson
