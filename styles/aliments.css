@@ -787,7 +787,7 @@ left: 67%;
 }
 
 #timeline{
-  float:left
+  float:left;
   padding:0;
   height:200px;
   width:1px;
@@ -795,18 +795,7 @@ left: 67%;
   position:relative;
  
 }
-#timeline-next{
-  z-index:1;
-  float:right;
-  padding:0;
-  margin-right:-50px;
-  height:1px;
-   width:5%;
-  border-top:dashed 1px #aabbc4;
-  background-color:;
-  position:relative;
- 
-}
+
  .marker{
    z-index:1000;
    border:1px solid #fff;
@@ -860,7 +849,6 @@ transition: all 300ms ease;
 
 
 .inner-marker{opacity:0;
-  z-index:;
    width:25px;
    height:25px;
    border-radius:25px;
