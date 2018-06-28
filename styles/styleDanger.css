@@ -16,7 +16,7 @@
 
 }
 
-body{
+body {
     background-color: black;
 }
 
@@ -46,7 +46,7 @@ body{
     height: 800px;
     background-image: url(../images/biodiversite.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     transition-duration: 2s;
     text-align: center;
     border: solid;
@@ -62,13 +62,13 @@ body{
     opacity: 0.3;
 }
 
-.row h1{
+.row h1 {
     color: white;
     font-family: Futura-Book;
-    
+
 }
 
-.row .ground h1{
+.row .ground h1 {
     color: black;
 }
 
@@ -135,7 +135,18 @@ body{
 .popup {
     margin: 0px auto;
     padding: 0px;
-    background: #fff;
+    background-color: currentColor;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup2 {
+    margin: 0px auto;
+    padding: 0px;
+    background-color: currentColor;
     border-radius: 5px;
     width: 100%;
     height: 100%;
@@ -171,6 +182,8 @@ button:hover {
     background-image: radial-gradient(circle at center, red 0%, blue 50%);
 }
 
+
+
 /*deforestaion popup*/
 
 .defoImg {
@@ -179,6 +192,7 @@ button:hover {
     transition-duration: 2s;
     position: relative;
 }
+
 .defoImg2 {
     right: 50%;
     display: inline-block;
@@ -205,16 +219,36 @@ button:hover {
     /*background-color: red;*/
     border-bottom-left-radius: 5px;
     text-align: center;
-    padding: 10px;
+    padding: 80px;
     transition-duration: 2s;
-    
+
 
 }
 
 
 .text p {
     font-size: 15px;
+    color: white;
 }
+
+.conteneurText {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText2 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText3 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
 
 .text2 {
     position: absolute;
@@ -230,11 +264,32 @@ button:hover {
     padding: 50px;
     transition-duration: 2s;
 
+
 }
 
 .text2 p {
     font-size: 15px;
+    color: white;
 }
+
+.conteneurText4 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText5 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText6 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
 
 .circlePopup {
     border: solid;
@@ -274,6 +329,7 @@ button:hover {
 
 }
 
+/*
 .circlePopup2:hover {
     opacity: 0.3;
     transition-duration: 0.3s;
@@ -283,29 +339,31 @@ button:hover {
     opacity: 0.3;
     transition-duration: 0.3s;
 }
+*/
 
 /*transform popup*/
-.moveUpImage{
+
+.moveUpImage {
     transform: translateY(-100vw);
     transition-duration: 2s;
 }
 
-.moveDownText{
+.moveDownText {
     transform: translateY(100vw);
     transition-duration: 2s;
 }
 
-.moveUpImage2{
+.moveUpImage2 {
     transform: translateY(100vw);
     transition-duration: 2s;
 }
 
-.moveDownText2{
+.moveDownText2 {
     transform: translateY(-100vw);
     transition-duration: 2s;
 }
 
-.opacityButton{
+.opacityButton {
     opacity: 0;
     transition-duration: 1s;
 }
@@ -321,6 +379,7 @@ button:hover {
     transition-duration: 2s;
     position: relative;
 }
+
 .defoImg4 {
     right: 50%;
     display: inline-block;
@@ -355,6 +414,25 @@ button:hover {
 
 .text3 p {
     font-size: 15px;
+    color: white;
+}
+
+.conteneurText7 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText8 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText9 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
 }
 
 .text4 {
@@ -375,8 +453,26 @@ button:hover {
 
 .text4 p {
     font-size: 15px;
+    color: white;
 }
 
+.conteneurText10 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText11 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText12 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
 
 
 
@@ -421,6 +517,7 @@ button:hover {
 
 }
 
+/*
 .circlePopup4:hover {
     opacity: 0.3;
     transition-duration: 0.3s;
@@ -430,6 +527,7 @@ button:hover {
     opacity: 0.3;
     transition-duration: 0.3s;
 }
+*/
 
 /*BIO popup*/
 
@@ -439,6 +537,7 @@ button:hover {
     transition-duration: 2s;
     position: relative;
 }
+
 .defoImg6 {
     right: 50%;
     display: inline-block;
@@ -473,6 +572,25 @@ button:hover {
 
 .text5 p {
     font-size: 15px;
+    color: white;
+}
+
+.conteneurText13 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText14 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText15 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
 }
 
 .text6 {
@@ -493,9 +611,26 @@ button:hover {
 
 .text6 p {
     font-size: 15px;
+    color: white;
 }
 
+.conteneurText16 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
 
+.conteneurText17 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText18 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
 
 
 
@@ -531,6 +666,7 @@ button:hover {
     border-radius: 50%;
     padding-left: 2.3px;
     padding-top: 6px;
+    z-index: 3;
 }
 
 .circlePopup6 img {
@@ -539,6 +675,7 @@ button:hover {
 
 }
 
+/*
 .circlePopup6:hover {
     opacity: 0.3;
     transition-duration: 0.3s;
@@ -548,6 +685,7 @@ button:hover {
     opacity: 0.3;
     transition-duration: 0.3s;
 }
+*/
 
 /*dégra popup*/
 
@@ -557,6 +695,7 @@ button:hover {
     transition-duration: 2s;
     position: relative;
 }
+
 .defoImg8 {
     right: 50%;
     display: inline-block;
@@ -591,6 +730,25 @@ button:hover {
 
 .text7 p {
     font-size: 15px;
+    color: white;
+}
+
+.conteneurText19 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText20 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText21 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
 }
 
 .text8 {
@@ -611,10 +769,27 @@ button:hover {
 
 .text8 p {
     font-size: 15px;
+    color: white;
 }
 
 
+.conteneurText22 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
 
+.conteneurText23 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
+
+.conteneurText24 {
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+}
 
 
 
@@ -657,6 +832,7 @@ button:hover {
 
 }
 
+/*
 .circlePopup8:hover {
     opacity: 0.3;
     transition-duration: 0.3s;
@@ -666,4 +842,4 @@ button:hover {
     opacity: 0.3;
     transition-duration: 0.3s;
 }
-
+*/
