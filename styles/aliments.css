@@ -139,6 +139,7 @@ h1
 
 .bienfaits
 {
+    font-size: 30px;
     margin-left: 10%;
     margin-bottom: 30%;
     color: #fff;
@@ -146,6 +147,7 @@ h1
 
 .consequences
 {
+    font-size: 30px;
     margin-left: 10%;
     margin-bottom: 30%;
     color: #fff;
@@ -153,6 +155,7 @@ h1
 
 .scroll
 {
+    z-index: 300;
     position: absolute;
     left: 94%;
     top: 83%;
@@ -621,6 +624,7 @@ button:hover {
 
 .grenade
 {
+    z-index:1;
 margin-top: 30%;
 left: 66%;
 }
@@ -732,34 +736,45 @@ left: 67%;
 */ 
 
 
+/* Z INDEX */
+
 #popup2{
   z-index: 102;
 }
 
 
 #popup3{
-  z-index: 150;
+  z-index: 200;
 }
 
 
 #popup4{
-  z-index: 151;
+  z-index: 200;
 }
 
 
 #popup5{
-  z-index: 165;
+  z-index: 200;
 }
 
 
 #popup6{
-  z-index: 170;
+  z-index: 200;
 }
 
 
 #popup7{
-  z-index: 180;
+  z-index: 200;
 }
 
-/* SLIDER */
+#popup8
+{
+    z-index: 200;
+}
+
+#popup9
+{
+    z-index: 200;
+}
+
  
