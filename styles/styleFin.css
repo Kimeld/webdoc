@@ -90,3 +90,30 @@ body {
 
     z-index: 2;
 }
+
+
+.precedent
+{
+  position: absolute;
+  border: solid 1px #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 92%;
+  left: 3%;
+  color: #fff;
+}
+
+.precedent a
+{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Futura";
+}
+
+.precedent:hover
+{
+    background-color: #fff;
+    color: #000;
+}
