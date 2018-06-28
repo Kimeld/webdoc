@@ -1,223 +1,225 @@
 <!doctype html>
 <html lang="fr">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Trapologue</title>
-        <link rel="stylesheet" href="../styles/reset.css" />
-        <link rel="stylesheet" href="../styles/bootstrap.min.css" />
-        <link rel="stylesheet" href="../styles/popup.css" />
-        <link rel="stylesheet" href="../styles/aliments.css" />
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>Trapologue</title>
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="../styles/popup.css" />
+    <link rel="stylesheet" href="../styles/aliments.css" />
+</head>
 
-    <body>
+<body>
 
-        <div class="background">
-            <img src="../images/aliments.png" alt=""/>
-            <div class="test title"></div>
-        </div>
+<div class="background">
+    <img src="../images/aliments.png" alt=""/>
+    <div class="test title"></div>
+</div>
 
-        <div class="container-fluid">
-            <div class="sectionHome col-lg-offset-2 col-lg-8">
+    <div class="container-fluid">
+        <div class="sectionHome col-lg-offset-2 col-lg-8">
 
-                <div class="title">
-                    <h2 class="test">Découvrez les aliments <i>"Healthy"</i></h2>
-                    <p>En cliquant dessus, vous apprendrez leurs origines, leurs bienfaits et leurs conséquences.</p>
+<div class="title">
+    <h2 class="test">Découvrez les aliments <i>"Healthy"</i></h2>
+    <p>En cliquant dessus, vous apprendrez leurs origines, leurs bienfaits et leurs conséquences.</p>
+</div>
+
+<div class="container">
+
+            <!-- AVOCAT -->
+            <a href="#popup2" title="Avocat">
+                <div class="pointavocat"><img src="../images/indicator.png" alt="" width="25px"/></div>
+            <div class="fruits avocat">
+                <img src="../images/Avocat.png" alt="" width="160px"/>
+            </div>
+            </a>
+
+            <div id="popup2" class="overlay">
+
+                <div class="fiche ficheavocat">
+                    <a class="close" href="#">&times;</a>
+
+                    <h1>AVOCAT</h1>
+                    <div class="image">
+                            <img src="../images/Avocat2.png" alt=""/>
+                        </div>
+                        <div class="informations">
+                        <div class="intro">
+                            <p>L’avocat est le produit le plus consommé dans l’alimentation Healthy. La sur demande d’avocats depuis la popularisation de cette mode a engendré une culture de masse au Mexique.</p> <p>L’avocatier étant un arbre très gourmand en eau, cette surproduction assèche les terres arides et contribue à la déforestation du Mexique.</p>
+                        </div>
+                        <div class="chiffre">
+                            <p class="pourcent">30%</p><p>de la production mondiale vient du</p><p class="pays">MEXIQUE</p>
+                            <img src="../images/mexique.png" alt=""/>
+                            <p class="sous">10% de la production d’avocats au mexique sont vendus en europe</p>
+                            <p class="sous">5,1 millions de tonnes par an d’avocats produits</p>
+                        </div>
+                        <div class="bienfaits">
+                            <p>Bienfaits</p>
+                            <img src="../images/bienfaitavocat.png" alt=""  width="300px"/>
+                        </div>
+                        <div class="consequences">
+                            <p>Conséquences</p>
+                            <img src="../images/consequenceavocat.png" alt="" width="300px"/>
+                        </div>
+                    </div>
+                         <div class="scroll">
+                            <img class="scroll1" src="../images/scroll.svg" alt="" width="30px">
+                        </div>
+                    </div>
+
+            </div>
+
+
+            <!-- AIL
+            <a href="#popup3" title="help">
+            <div class="fruits ail">
+                <img src="../images/Ail.png" alt="" width=""/>
+            </div>
+            </a>
+
+            <div id="popup3" class="overlay">
+                <div class="fiche ficheail">
+                    <a class="close" href="#">&times;</a>
+
+                <h1>AIL</h1>
+                    <div class="image">
+                        <img src="../images/Ail2.png" alt=""/>
+                    </div>
+                    <div class="textfruit">
+                        <p>Riche en protéines, en fibres, en graisses mono-insaturées (les plus intéressantes) et en vitamines.</p>
+                        <p>La France est le plus gros consommateurs d’avocats, soit 1,5kg par personne par an. La demande a augmenté de 20% en 1 an en Espagne.</p>
+                        
+                        <div class="arrows">
+                            <img class="up" src="../images/up-arrow.png" alt="" width="40px">
+                            <img class="down" src="../images/down-arrow.png" alt="" width="40px">
+                        </div>
                 </div>
-
-                <div class="container">
-
-                    <!-- AVOCAT -->
-                    <a href="#popup2" title="help">
-                        <div class="pointavocat"><img src="../images/indicator.png" alt="" width="25px"/></div>
-                        <div class="fruits avocat">
-                            <img src="../images/Avocat.png" alt="" width="160px"/>
-                        </div>
-                    </a>
-
-                    <div id="popup2" class="overlay">
-
-                        <div class="fiche ficheavocat">
-                            <a class="close" href="#">&times;</a>
-
-                            <h1>AVOCAT</h1>
-                            <div class="image">
-                                <img src="../images/Avocat2.png" alt=""/>
-                            </div>
-                            <div class="informations">
-                                <div class="intro">
-                                    <p>L’avocat est le produit le plus consommé dans l’alimentation Healthy.
-                                        La sur demande d’avocats depuis la popularisation de cette mode a engendré une culture de masse au Mexique. L’avocatier étant un arbre très gourmand en eau, cette surproduction assèche les terres arides et contribue à la déforestation du Mexique.</p>
-                                </div>
-                                <div class="chiffre">
-                                    <p class="pourcent">30%</p><p>de la production mondiale vient du</p><p class="pays">MEXIQUE</p>
-                                    <img src="../images/mexique.png" alt=""/>
-                                    <p class="sous">10% de la production d’avocats au mexique sont vendus en europe</p>
-                                    <p class="sous">5,1 millions de tonnes par an d’avocats produits</p>
-                                </div>
-                                <div class="bienfaits">
-                                    <p>Bienfaits</p>
-                                    <img src="../images/bienfaitavocat.png" alt=""  width="300px"/>
-                                </div>
-                                <div class="consequences">
-                                    <p>Conséquences</p>
-                                    <img src="../images/consequenceavocat.png" alt="" width="300px"/>
-                                </div>
-                            </div>
-                            <div class="scroll">
-                                <img class="scroll1" src="../images/scroll.svg" alt="" width="30px">
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <!-- AIL
-<a href="#popup3" title="help">
-<div class="fruits ail">
-<img src="../images/Ail.png" alt="" width=""/>
-</div>
-</a>
-
-<div id="popup3" class="overlay">
-<div class="fiche ficheail">
-<a class="close" href="#">&times;</a>
-
-<h1>AIL</h1>
-<div class="image">
-<img src="../images/Ail2.png" alt=""/>
-</div>
-<div class="textfruit">
-<p>Riche en protéines, en fibres, en graisses mono-insaturées (les plus intéressantes) et en vitamines.</p>
-<p>La France est le plus gros consommateurs d’avocats, soit 1,5kg par personne par an. La demande a augmenté de 20% en 1 an en Espagne.</p>
-
-<div class="arrows">
-<img class="up" src="../images/up-arrow.png" alt="" width="40px">
-<img class="down" src="../images/down-arrow.png" alt="" width="40px">
-</div>
-</div>
-</div>
-</div>  -->
-
-                    <!-- BANANE -->
-                    <a href="#popup4" title="help">
-                        <div class="fruits banane">
-                            <div class="pointbanane"><img src="../images/indicator.png" alt="" width="25px"/></div>
-                            <img src="../images/Banane.png" alt="" width="380px"/>
-                        </div>
-                    </a>
-
-                    <div id="popup4" class="overlay">
-                        <div class="fiche fichebanane">
-                            <a class="close" href="#">&times;</a>
-
-                            <h1>BANANE</h1>
-                            <div class="image">
-                                <img src="../images/Banane2.png" alt=""/>
-                            </div>
-                            <div class="informations">
-                                <div class="intro">
-                                    <p>La tendance healthy a fortement augmenté la demande de bananes, bien que celles-ci étaient déjà consommées en abondance à travers le monde. Depuis cette croissance, la production de banane a doublé et a contribué à assécher les terres : 800L d’eau pour 1kg de bananes.</p>
-                                    <p>De plus, la plupart des plantations de bananes, notamment en Martinique et en Guadeloupe, sont traitées avec un pesticide cancérigène qui se répand dans l’eau et contamine les espèces maritimes.</p>
-                                </div>
-                                <div class="chiffre">
-                                    <p class="pourcent">26%</p><p>de la production mondiale vient du</p><p class="pays">Mexique</p>
-                                    <img src="../images/mexique.png" alt="" width="200px"/>
-                                    <p class="sous">27,5 millions de tonnes par an produites en Inde (premier producteur), la production a doublé depuis 2000.</p>
-                                </div>
-                                <div class="bienfaits">
-                                    <p>Bienfaits</p>
-                                    <img src="../images/bienfaitbanane.png" alt="" width="300px"/>
-                                </div>
-                                <div class="consequences">
-                                    <p>Conséquences</p>
-                                    <img src="../images/consequencebanane.png" alt="" width="300px"/>
-                                </div>
-                                <div class="scroll">
-                                    <img class="scroll1" src="../images/scroll.svg" alt="" width="30px">
-                                </div>
-                            </div>
-                            <!-- <div class="arrows">
-<img class="up" src="../images/up-arrow.png" alt="" width="40px">
-<img class="down" src="../images/down-arrow.png" alt="" width="40px">
-</div> -->
-
-                        </div>
-
-                    </div>
                 </div>
+            </div>  -->
 
-                <!-- QUINOA -->
-                <a href="#popup5" title="help">
-                    <div class="fruits quinoa">
-                        <div class="pointquinoa"><img src="../images/indicator.png" alt="" width="25px"/></div>
-                        <img src="../images/Quinoa.png" alt="" width="280px"/>
+            <!-- BANANE -->
+            <a href="#popup4" title="Banane">
+            <div class="fruits banane">
+                 <div class="pointbanane"><img src="../images/indicator.png" alt="" width="25px"/></div>
+                <img src="../images/Banane.png" alt="" width="380px"/>
+            </div>
+            </a>
+
+            <div id="popup4" class="overlay">
+                <div class="fiche fichebanane">
+                    <a class="close" href="#">&times;</a>
+                    
+                    <h1>BANANE</h1>
+                    <div class="image">
+                            <img src="../images/Banane2.png" alt=""/>
+                        </div>
+                        <div class="informations">
+                        <div class="intro">
+                            <p>La tendance healthy a fortement augmenté la demande de bananes, bien que celles-ci étaient déjà consommées en abondance à travers le monde. Depuis cette effet de mode, la production de banane a doublé et a contribué à assécher les terres : 800L d’eau pour 1kg de bananes.</p>
+                            <p>De plus, les grandes plantations de bananes, (Martinique, Guadeloupe), sont traitées avec un pesticide cancérigène qui se répand dans l’eau et contamine les espèces maritimes.</p>
+                        </div>
+                        <div class="chiffre">
+                            <p class="pourcent">26%</p><p>de la production mondiale vient de</p><p class="pays">l'INDE</p>
+                            <img src="../images/inde.png" alt="" width="200px"/>
+                            <p class="sous">27,5 millions de tonnes par an en Inde (premier producteur), la production a doublé depuis 2000.</p>
+                        </div>
+                        <div class="bienfaits">
+                            <p>Bienfaits</p>
+                            <img src="../images/bienfaitbanane.png" alt="" width="300px"/>
+                        </div>
+                        <div class="consequences">
+                            <p>Conséquences</p>
+                            <img src="../images/consequencebanane.png" alt="" width="300px"/>
+                        </div>
+                        <div class="scroll">
+                            <img class="scroll1" src="../images/scroll.svg" alt="" width="30px">
+                        </div>
                     </div>
-                </a>
+                        <!-- <div class="arrows">
+                            <img class="up" src="../images/up-arrow.png" alt="" width="40px">
+                            <img class="down" src="../images/down-arrow.png" alt="" width="40px">
+                        </div> -->
 
-                <div id="popup5" class="overlay">
-                    <div class="fiche fichequinoa">
-                        <a class="close" href="#">&times;</a>
+                    </div>
+                    
+                </div>
+            </div>
 
-                        <h1>QUINOA</h1>
-                        <div class="image">
+            <!-- QUINOA -->
+            <a href="#popup5" title="Quinoa">
+            <div class="fruits quinoa">
+                <div class="pointquinoa"><img src="../images/indicator.png" alt="" width="25px"/></div>
+                <img src="../images/Quinoa.png" alt="" width="280px"/>
+            </div>
+            </a>
+
+            <div id="popup5" class="overlay">
+                <div class="fiche fichequinoa">
+                    <a class="close" href="#">&times;</a>
+                    
+                    <h1>QUINOA</h1>
+                    <div class="image">
                             <img src="../images/Quinoa2.png" alt=""/>
                         </div>
                         <div class="informations">
-                            <div class="intro">
-                                <p>Le quinoa est un des aliments favoris des consommateurs healthy. <br/>L’augmentation de sa demande de près de 50% depuis le début de cette mode a provoqué un boom de production en quelques années, une forte croissance de la valeur du quinoa et une multiplication du nombre de producteurs.</p>
-                            </div>
-                            <div class="chiffre">
-                                <p class="pourcent">90%</p><p>de la production mondiale vient du</p><p class="pays">PÉROU et BOLIVIE</p>
-                                <img src="../images/perou.png" alt="" width="300px"/>
-                                <p class="sous">Les exportations ont doublé en à peine deux ans.</p>
-                                <p class="sous">230 millions de tonnes produites par an.</p>
-
-                            </div>
-                            <div class="bienfaits">
-                                <p>Bienfaits</p>
-                                <img src="../images/bienfaitquinoa.png" alt="" width="300px"/>
-                            </div>
-                            <div class="consequences">
-                                <p>Conséquences</p>
-                                <img src="../images/consequencequinoa.png" alt="" width="300px"/>
-                            </div>
-                            <div class="scroll">
-                                <img class="scroll1" src="../images/scroll.svg" alt="" width="30px">
-                            </div>
+                        <div class="intro">
+                            <p>Le quinoa est l’un des aliments favoris des consommateurs healthy.</p>
+                            <p>L’augmentation de sa demande de près de 50%, depuis le début de cette tendance, a provoqué une croissance spéctaculaire de sa production en quelques années, ainsi qu’une forte augmentation de sa valeur du quinoa sur le marché.</p>
                         </div>
+                        <div class="chiffre">
+                            <p class="pourcent">60%</p><p>de la production mondiale vient du</p><p class="pays">PÉROU</p>
+                            <img src="../images/perou.png" alt="" width="300px"/>
+                            <p class="sous">30% de la production mondiale vient de la Bolivie.</p>
+                            <p class="sous">Les exportations ont augmenté de 260% en à peine deux ans.</p>
+                            <p class="sous">230 millions de tonnes produits par an.</p>
+
+                        </div>
+                        <div class="bienfaits">
+                            <p>Bienfaits</p>
+                            <img src="../images/bienfaitquinoa.png" alt="" width="300px"/>
+                        </div>
+                        <div class="consequences">
+                            <p>Conséquences</p>
+                            <img src="../images/consequencequinoa.png" alt="" width="300px"/>
+                        </div>
+                        <div class="scroll">
+                            <img class="scroll1" src="../images/scroll.svg" alt="" width="30px">
+                        </div>
+                    </div>
                         <!-- <div class="arrows">
-<img class="up" src="../images/up-arrow.png" alt="" width="40px">
-<img class="down" src="../images/down-arrow.png" alt="" width="40px">
-</div> -->
+                            <img class="up" src="../images/up-arrow.png" alt="" width="40px">
+                            <img class="down" src="../images/down-arrow.png" alt="" width="40px">
+                        </div> -->
 
                     </div>
                 </div>
             </div>
 
             <!-- KALE -->
-            <a href="#popup6" title="help">
-                <div class="fruits kale">
-                    <div class="pointkale"><img src="../images/indicator.png" alt="" width="25px"/></div>
-                    <img src="../images/Kale.png" alt="" width="250px"/>
-                </div>
+            <a href="#popup6" title="Kale">
+            <div class="fruits kale">
+                <div class="pointkale"><img src="../images/indicator.png" alt="" width="25px"/></div>
+                <img src="../images/Kale.png" alt="" width="250px"/>
+            </div>
             </a>
 
             <div id="popup6" class="overlay">
                 <div class="fiche fichekale">
                     <a class="close" href="#">&times;</a>
-
+                    
                     <h1>KALE</h1>
                     <div class="image">
-                        <img src="../images/Kale2.png" alt=""/>
-                    </div>
-                    <div class="informations">
+                            <img src="../images/Kale2.png" alt=""/>
+                        </div>
+                        <div class="informations">
                         <div class="intro">
-                            <p>Le kale est un choux vert adoré par les consommateurs healthy. Avec la popularisation de cette mode, sa consommation a fortement augmenté d’autant plus que cet aliment peut être planté partout.<br/> Néanmoins, manger du kale cru peut être néfaste pour la santé: cela peut provoquer des douleurs abdominales, musculaires ou augmenter le risque de calculs rénaux.</p>
+                            <p>Le kale est un choux vert adoré par les consommateurs healthy, et les agriculteurs peuvent se ravir car cet aliment peut être planté sur tous types de terrain.</p>
+                            <p>Néanmoins, manger du kale cru peut provoquer des douleurs abdominales, musculaires ou augmenter le risque de calculs rénaux.</p>
                         </div>
                         <div class="chiffre">
-                            <p class="pourcent">33%</p><p>DE CONSOMMATEURS EN PLUS DEPUIS</p><p class="pays">2007</p>
-
+                            <p class="pourcent">30%</p><p>de la production mondiale vient du</p><p class="pays">MEXIQUE</p>
+                            <img src="../images/mexique.png" alt="" width="300px"/>
                         </div>
                         <div class="bienfaits">
                             <p>Bienfaits</p>
@@ -231,236 +233,233 @@
                             <img class="scroll1" src="../images/scroll.svg" alt="" width="30px">
                         </div>
                     </div>
+                
+                        <!-- <div class="arrows">
+                            <img class="up" src="../images/up-arrow.png" alt="" width="40px">
+                            <img class="down" src="../images/down-arrow.png" alt="" width="40px">
+                        </div> -->
 
-                    <!-- <div class="arrows">
-<img class="up" src="../images/up-arrow.png" alt="" width="40px">
-<img class="down" src="../images/down-arrow.png" alt="" width="40px">
-</div> -->
-
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- POISSON -->
-
-        <a href="#popup7" title="help">
+            <!-- POISSON -->
+            
+            <a href="#popup7" title="Poisson">
             <div class="fruits poisson">
                 <div class="pointkale"><img src="../images/indicator.png" alt="" width="25px"/></div>
                 <img src="../images/Poisson.png" alt="" width="200px"/>
             </div>
-        </a>
+            </a>
 
-        <div id="popup7" class="overlay">
-            <div class="fiche fichepoisson">
-                <a class="close" href="#">&times;</a>
-
-                <h1>POISSON</h1>
-                <div class="image">
-                    <img src="../images/Poisson.png" alt=""/>
-                </div>
-                <div class="informations">
-                    <div class="intro">
-                        <p>L’alimentation healthy privilégie le poisson pour l’apport en protéines plutôt que la viande blanche ou rouge. <br/>Mais la surexploitation des espèces maritimes qui était déjà dangereuse pour la biodiversité n’a fait qu'accroître ces dernières années et aujourd’hui, de nombreuses espèces sont menacées ou une menace pour la planète. C’est le cas notamment du thon rouge, en voie de disparition, ainsi que de la production de saumon qui utilise des pesticides qui contaminent l’environnement et les autres poissons aux alentours.
-                        </p>
+            <div id="popup7" class="overlay">
+                <div class="fiche fichepoisson">
+                    <a class="close" href="#">&times;</a>
+                   
+                    <h1>POISSON</h1>
+                    <div class="image">
+                            <img src="../images/Poisson.png" alt=""/>
+                        </div>
+                        <div class="informations">
+                        <div class="intro">
+                            <p>L’alimentation healthy privilégie le poisson pour l’apport en protéines plutôt que la viande blanche ou rouge. Mais la surexploitation des espèces maritimes, qui était déjà dangereuse pour la biodiversité, n’a fait qu'accroître ces dernières années.</p>
+                            <p>Aujourd’hui, de nombreuses espèces, comme le thon rouge, sont en voie de disparition. La production de saumon, elle, qui utilise des pesticides qui contaminent l’environnement maritime.</p>
+                        </div>
+                        <div class="chiffre">
+                            <p class="pourcent">38%</p><p>de la production mondiale vient du</p><p class="pays">CHINE</p>
+                            <img src="../images/chine.png" alt="" width="300px"/>
+                        </div>
+                        <div class="bienfaits">
+                            <p>Bienfaits</p>
+                            <img src="../images/bienfaitpoisson.png" alt="" width="300px"/>
+                        </div>
+                        <div class="consequences">
+                            <p>Conséquences</p>
+                            <img src="../images/consequencepoisson.png" alt="" width="300px"/>
+                        </div>
                     </div>
-                    <div class="chiffre">
-                        <p class="pourcent">60%</p><p>de la production mondiale vient de</p><p class="pays">CHINE</p>
-                        <img src="../images/chine.png" alt="" width="300px"/>
-                        <p class="sous">132 millions de tonnes de poissons pêchées chaque année.</p>
-                    </div>
-                    <div class="bienfaits">
-                        <p>Bienfaits</p>
-                        <img src="../images/bienfaitpoisson.png" alt="" width="300px"/>
-                    </div>
-                    <div class="consequences">
-                        <p>Conséquences</p>
-                        <img src="../images/consequencepoisson.png" alt="" width="300px"/>
+                        <div class="scroll">
+                            <img class="scroll1" src="../images/scroll.svg" alt="" width="30px">
+                        </div>
+                        <!-- <div class="arrows">
+                            <img class="up" src="../images/up-arrow.png" alt="" width="40px">
+                            <img class="down" src="../images/down-arrow.png" alt="" width="40px">
+                        </div> -->
+
                     </div>
                 </div>
-                <div class="scroll">
-                    <img class="scroll1" src="../images/scroll.svg" alt="" width="30px">
-                </div>
-                <!-- <div class="arrows">
-<img class="up" src="../images/up-arrow.png" alt="" width="40px">
-<img class="down" src="../images/down-arrow.png" alt="" width="40px">
-</div> -->
-
             </div>
-        </div>
-        </div>
 
-    <!-- SOJA -->
-    <a href="#popup8" title="help">
-        <div class="fruits soja">
-            <div class="pointsoja"><img src="../images/indicator.png" alt="" width="25px"/></div>
-            <img src="../images/Soja.png" alt="" width="120px"/>
-        </div>
-    </a>
-
-    <div id="popup8" class="overlay">
-        <div class="fiche fichesoja">
-            <a class="close" href="#">&times;</a>
-
-            <h1>SOJA</h1>
-            <div class="image">
-                <img src="../images/Soja.png" alt=""/>
+            <!-- SOJA -->
+            <a href="#popup8" title="Soja">
+            <div class="fruits soja">
+                <div class="pointsoja"><img src="../images/indicator.png" alt="" width="25px"/></div>
+                <img src="../images/Soja.png" alt="" width="120px"/>
             </div>
-            <div class="informations">
-                <div class="intro">
-                    <p>Le soja est une graine très consommée en France et dans le monde entier. La mode healthy a participé à la croissance de sa production. <br/>
-                        Cependant, manger cet aliment, s’il n’est pas fermenté et cuisiné, peut être nocif pour l’Homme : le lait de soja peut provoquer des dérèglements hormonaux et manger du soja non-fermenté peut provoquer des maladies graves(Alzheimer, cancer de la Thyroïde, déficiences organiques).<br/>
-                        De plus, la production d’huile de soja nécessite l’utilisation de nombreux produits chimiques qui émettent des gaz à effet de serre.</p>
-                </div>
-                <div class="chiffre">
-                    <p class="pourcent">35%</p><p>de la production mondiale vient des</p><p class="pays">ÉTATS-UNIS</p>
-                    <img src="../images/usa.png" alt="" width="300px"/>
-                    <p class="sous">70% de la production mondiale de soja sont des OGM</p>
-                    <p class="sous">30 millions de tonnes de graines de soja sont produites chaque année sur le globe.</p>
-                </div>
-                <div class="bienfaits">
-                    <p>Bienfaits</p>
-                    <img src="../images/bienfaitsoja.png" alt="" width="300px"/>
-                </div>
-                <div class="consequences">
-                    <p>Conséquences</p>
-                    <img src="../images/consequencesoja.png" alt="" width="300px"/>
-                </div>
-                <div class="scroll">
-                    <img class="scroll1" src="../images/scroll.svg" alt="" width="30px">
+            </a>
+
+            <div id="popup8" class="overlay">
+                <div class="fiche fichesoja">
+                    <a class="close" href="#">&times;</a>
+                    
+                    <h1>SOJA</h1>
+                    <div class="image">
+                            <img src="../images/Soja.png" alt=""/>
+                        </div>
+                        <div class="informations">
+                        <div class="intro">
+                            <p>Le soja est une graine fortement consommée dans le monde entier. La mode healthy a participé à la croissance de sa production.</p>
+                            <p>Cependant, l’avaler, sans qu’il ne soit fermenté et cuisiné, peut être nocif pour l’Homme : le lait de soja peut provoquer des dérèglements hormonaux et manger du soja non-fermenté peut provoquer des maladies graves(Alzheimer, cancer de la Thyroïde, déficiences organiques).</p>
+                        </div>
+                        <div class="chiffre">
+                            <p class="pourcent">35%</p><p>de la production mondiale vient des</p><p class="pays">ÉTATS-UNIS</p>
+                            <img src="../images/usa.png" alt="" width="300px"/>
+                        </div>
+                        <div class="bienfaits">
+                            <p>Bienfaits</p>
+                            <img src="../images/bienfaitsoja.png" alt="" width="300px"/>
+                        </div>
+                        <div class="consequences">
+                            <p>Conséquences</p>
+                            <img src="../images/consequencesoja.png" alt="" width="300px"/>
+                        </div>
+                        <div class="scroll">
+                            <img class="scroll1" src="../images/scroll.svg" alt="" width="30px">
+                        </div>
+                    </div>
+                        <!-- <div class="arrows">
+                            <img class="up" src="../images/up-arrow.png" alt="" width="40px">
+                            <img class="down" src="../images/down-arrow.png" alt="" width="40px">
+                        </div> -->
+
+                    </div>
                 </div>
             </div>
-            <!-- <div class="arrows">
-<img class="up" src="../images/up-arrow.png" alt="" width="40px">
-<img class="down" src="../images/down-arrow.png" alt="" width="40px">
-</div> -->
 
-        </div>
-    </div>
-    </div>
-
-<!-- GRENADE -->
-<a href="#popup9" title="help">
-    <div class="fruits grenade">
-        <div class="pointgrenade"><img src="../images/indicator.png" alt="" width="25px"/></div>
-        <img src="../images/Grenade.png" alt="" width="100px"/>
-    </div>
-</a>
-
-<div id="popup9" class="overlay">
-    <div class="fiche fichegrenade">
-        <a class="close" href="#">&times;</a>
-
-        <h1>GRENADE</h1>
-        <div class="image">
-            <img src="../images/Grenade.png" alt=""/>
-        </div>
-        <div class="informations">
-            <div class="intro">
-                <p>La grenade est un fruit oublié en France et revenu à la mode en même temps que la tendance Healthy. </p> <p>La consommation de grenades a triplé en 10 ans : Aujourd'hui, 10 000 tonnes de grenades sont consommées chaque année en France. Mais cette popularisation de la grenade pourrait dans un futur proche devenir un danger pour l'écosystème si la demande explose.</p>
+            <!-- GRENADE -->
+            <a href="#popup9" title="Grenade">
+            <div class="fruits grenade">
+                <div class="pointgrenade"><img src="../images/indicator.png" alt="" width="25px"/></div>
+                <img src="../images/Grenade.png" alt="" width="100px"/>
             </div>
-            <div class="chiffre">
-                <p> La<span class="pourcent"> TURQUIE </span></p><p>est premier producteur de grenades.</p>
-                <img src="../images/turquie.png" alt=""/>
+            </a>
+
+            <div id="popup9" class="overlay">
+                <div class="fiche fichegrenade">
+                    <a class="close" href="#">&times;</a>
+                    
+                    <h1>GRENADE</h1>
+                    <div class="image">
+                            <img src="../images/Grenade.png" alt=""/>
+                        </div>
+                        <div class="informations">
+                        <div class="intro">
+                            <p>Le soja est une graine fortement consommée dans le monde entier. La mode healthy a participé à la croissance de sa production.</p>
+                            <p>Cependant, l’avaler, sans qu’il ne soit fermenté et cuisiné, peut être nocif pour l’Homme : le lait de soja peut provoquer des dérèglements hormonaux et manger du soja non-fermenté peut provoquer des maladies graves(Alzheimer, cancer de la Thyroïde, déficiences organiques).</p>
+                        </div>
+                        <div class="chiffre">
+                            <p>32%</p><p>de la production mondiale vient de la</p><p>TURQUIE</p>
+                            <img src="../images/turquie.png" alt=""/>
+                        </div>
+                        <div class="bienfaits">
+                            <img src="../images/bienfaitgrenade.png" alt=""/>
+                        </div>
+                        <div class="consequences">
+                            <img src="../images/consequencegrenade.png" alt=""/>
+                        </div>
+                        <div class="scroll">
+                            <img class="scroll1" src="../images/scroll.svg" alt="" width="30px">
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div> 
+
+
+            <!-- CAFE 
+            <a href="#popup10" title="help">
+            <div class="fruits cafe">
+                <img src="../images/Café.png" alt="" width="200px"/>
             </div>
-            <div class="bienfaits">
-                <img src="../images/bienfaitgrenade.png" alt=""/>
+            </a>
+
+            <div id="popup10" class="overlay">
+                <div class="fiche fichecafe">
+                    <a class="close" href="#">&times;</a>
+                    <div class="textPopup">
+                    </div>
+                </div>
+            </div> -->
+
+
+            <!-- CACAO 
+            <a href="#popup11" title="help">
+            <div class="fruits cacao">
+                <img src="../images/Cacao.png" alt="" width="200px"/>
             </div>
-            <div class="consequences">
-                <img src="../images/consequencegrenade.png" alt=""/>
-            </div>
-            <div class="scroll">
-                <img class="scroll1" src="../images/scroll.svg" alt="" width="30px">
-            </div>
-        </div>
+            </a>
 
-    </div>
-</div>
-</div> 
-
-
-<!-- CAFE 
-<a href="#popup10" title="help">
-<div class="fruits cafe">
-<img src="../images/Café.png" alt="" width="200px"/>
-</div>
-</a>
-
-<div id="popup10" class="overlay">
-<div class="fiche fichecafe">
-<a class="close" href="#">&times;</a>
-<div class="textPopup">
-</div>
-</div>
-</div> -->
-
-
-<!-- CACAO 
-<a href="#popup11" title="help">
-<div class="fruits cacao">
-<img src="../images/Cacao.png" alt="" width="200px"/>
-</div>
-</a>
-
-<div id="popup11" class="overlay">
-<div class="fiche fichecacao">
-<a class="close" href="#">&times;</a>
-<div class="textPopup">
-</div>
-</div>
-</div> -->
+            <div id="popup11" class="overlay">
+                <div class="fiche fichecacao">
+                    <a class="close" href="#">&times;</a>
+                    <div class="textPopup">
+                    </div>
+                </div>
+            </div> -->
 <a href="../pages/healthy.html"><div class="precedent">Retour</div></a>
 <a href="../pages/ecologie.html"><div class="continue">Continuer</div></a>
 
 
 
 <div id="timeline-wrap">
-    <div id="timeline"></div>
-
-    <!-- This is the individual marker-->
-    <a href="../pages/healthy.html">
-        <div class="marker mfirst">
-            <span class="hint--left" data-hint="Healthy">
-                <div class="inner-marker"></div></span></div>
+  <div id="timeline"></div>
+  
+  <!-- This is the individual marker-->
+  <a href="../pages/healthy.html">
+  <div class="marker mfirst">
+    <span class="hint--left" data-hint="Healthy">
+      <div class="inner-marker"></div></span></div>
     </a>
-    <!-- / marker -->
+  <!-- / marker -->
 
-    <!-- This is the individual marker-->
-    <a href="../pages/aliments.html">
-        <div class="marker m2">
-            <span class="hint--left" data-hint="Produits">
-                <div class="inner-marker"></div></span></div>
+  <!-- This is the individual marker-->
+  <a href="../pages/aliments.html">
+  <div class="marker m2">
+    <span class="hint--left" data-hint="Produits">
+      <div class="inner-marker"></div></span></div>
     </a>
-    <!-- / marker -->
+  <!-- / marker -->
 
-
-    <!-- This is the individual marker-->
-    <a href="../pages/market.html">
-        <div class="marker m3">
-            <span class="hint--left" data-hint="Marché">
-                <div class="inner-marker"></div></span></div>
+  
+  <!-- This is the individual marker-->
+  <a href="../pages/market.html">
+  <div class="marker m3">
+    <span class="hint--left" data-hint="Marché">
+      <div class="inner-marker"></div></span></div>
     </a>
-    <!-- / marker -->
+  <!-- / marker -->
 
-
-    <!-- This is the individual marker-->
-    <a href="../pages/ecologie.html">
-        <div class="marker m4">
-            <span class="hint--left" data-hint="Écologie">
-                <div class="inner-marker"></div></span></div>
+  
+  <!-- This is the individual marker-->
+  <a href="../pages/ecologie.html">
+  <div class="marker m4">
+    <span class="hint--left" data-hint="Écologie">
+      <div class="inner-marker"></div></span></div>
     </a>
-    <!-- / marker -->
+  <!-- / marker -->
 
-    <!-- / marker -->
-
+  <!-- / marker -->
+ 
 </div>
 
-</div>
-</div>
+        </div>
+    </div>
 </div>
 
-<!-- <script src="../scripts/bootstrap.min.js"></script> -->
-<!-- <script src="../scripts/scriptaliments.js"></script> -->
-<script src="../scripts/script.js"></script>
+    <!-- <script src="../scripts/bootstrap.min.js"></script> -->
+    <!-- <script src="../scripts/scriptaliments.js"></script> -->
+    <script src="../scripts/script.js"></script>
 </body>
 
 </html>
