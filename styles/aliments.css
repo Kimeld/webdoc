@@ -1,5 +1,10 @@
 /* BASE */ 
 
+body
+{
+    overflow-x: hidden;
+}
+
 .background img
 {
   width: 100%;
@@ -58,75 +63,10 @@ h1
   font-family: "Futura";
 }
 
-.informations
-{
-    visibility: visible;
-}
 
-.intro
-{
-    color: white;
-    width: 35%;
-    margin-left: 60%;
-    margin-top: 15%;
-    font-size: 20px;
-    text-align: center;
-    line-height: 30px;
-}
+/* FICHE GENERALE */
 
-.chiffre
-{
-    color: white;
-    width: 35%;
-    margin-left: 60%;
-    font-size: 20px;
-    text-align: center;
-    line-height: 30px;
-}
-
-.bienfaits
-{
-    margin-left: 60%;
-}
-
-.consequences
-{
-    margin-left: 60%;
-}
-
-.fiche h1
-{
-    margin-left: 40%;
-    top: 2%;
-    font-size: 60px;
-    font-style: bold;
-    font-weight: 900;
-}
-
-.arrows
-{
-    position: absolute;
-    left: 94%;
-    top: 83%;
-}
-
-.arrows .up
-{
-    position: absolute;
-    display: inline;
-    margin-bottom: 40px;
-}
-
-.arrows .down 
-{
-    position: absolute;
-    display: inline;
-    margin-top: 40px;
-}
-
- /* AVOCAT */ 
-
-.overlay {
+ .overlay {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -141,10 +81,93 @@ h1
 .overlay:target {
     visibility: visible;
     opacity: 1;
+} 
+
+
+.informations
+{
+    margin-left: 50%;
+    margin-top: 15%;
+    width:40%;
+    height: 55%;  
+    overflow: scroll;
 }
 
+
+.intro
+{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20%;
+}
+
+.chiffre
+{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20%;
+}
+
+.chiffre .pourcent
+{
+    font-size: 40px;
+}
+
+.chiffre .pays
+{
+    font-size: 30px;
+}
+
+.chiffre .sous 
+{
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.fiche h1
+{
+    margin-left: 40%;
+    top: 2%;
+    font-size: 60px;
+    font-style: bold;
+    font-weight: 900;
+}
+
+.bienfaits
+{
+    margin-left: 10%;
+    margin-bottom: 30%;
+    color: #fff;
+}
+
+.consequences
+{
+    margin-left: 10%;
+    margin-bottom: 30%;
+    color: #fff;
+}
+
+.scroll
+{
+    position: absolute;
+    left: 94%;
+    top: 83%;
+}
+
+.scroll .scroll1
+{
+    position: absolute;
+    display: inline;
+    margin-bottom: 40px;
+}
+
+ /* AVOCAT */ 
+
 .ficheavocat {
-    
     margin: 40px auto;
     padding: 20px;
     background-image: url(../images/fond.png);
@@ -480,9 +503,8 @@ button:hover {
 
 .poisson
 {
-margin-top: 32%;
+top: 60%;
 left:50%;
-filter: drop-shadow(0px 3px 20px #000);
 }
 
 .pointpoisson
@@ -491,10 +513,10 @@ filter: drop-shadow(0px 3px 20px #000);
     position: absolute;
     color: #fff;
     font-family: "futura";
-    margin-top: 15%;
-    left: 40%;
+    margin-top: -5%;
+    left: 50%;
     z-index: 500;
-    opacity: 0;
+    opacity: 1;
 }
 
 
