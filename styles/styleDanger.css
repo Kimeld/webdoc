@@ -126,6 +126,19 @@ body {
     width: 150px;
 }
 
+.exit2 {
+    position: fixed;
+    top: 10px;
+    left: 0px;
+    width: 150px;
+    transform: rotate(180deg);
+}
+
+.exit2 img {
+    width: 150px;
+}
+
+
 /*popup*/
 
 .overlay {
