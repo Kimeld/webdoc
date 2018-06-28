@@ -66,6 +66,7 @@ body {
 .row h1 {
     color: white;
     font-family: Futura-Book;
+    margin-top: 100%;
 
 }
 
@@ -77,11 +78,12 @@ body {
 .circle {
     width: 70px;
     height: 70px;
-    margin: 180% auto 0% auto;
+    margin: 10% auto 0% auto;
     border: solid;
     border-color: white;
     border-radius: 50px;
     position: relative;
+    opacity: 0;
 
 
 }
@@ -110,6 +112,26 @@ body {
 }
 
 .ground:hover {
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.chimic:hover .circle {
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.monoculture:hover .circle {
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.biodiverity:hover .circle {
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.ground:hover .circle {
     opacity: 1;
     transition-duration: 1s;
 }
@@ -167,6 +189,7 @@ body {
     height: 100%;
     position: relative;
     transition: all 5s ease-in-out;
+    
 }
 
 .popup2 {
