@@ -87,4 +87,6 @@ body {
 
 .video {
     margin: auto;
+
+    z-index: 2;
 }
