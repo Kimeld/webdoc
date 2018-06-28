@@ -1,0 +1,743 @@
+/* BASE */ 
+
+.background img
+{
+  width: 100%;
+  position: fixed;
+}
+
+h1
+{
+  top: 4%;
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: "Futura";
+  font-style: bold;
+  Line-Height: 96px;
+}
+
+.continue
+{
+  position: absolute;
+  background-color: #F73361;
+  border-radius: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 110%;
+  margin-top: 20%;
+}
+
+.continue a
+{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Futura";
+}
+
+.precedent
+{
+  position: absolute;
+  background-color: #F73361;
+  border-radius: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: -30%;
+  margin-top: 20%;
+}
+
+.precedent a
+{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Futura";
+}
+
+.informations
+{
+    visibility: visible;
+}
+
+.intro
+{
+    color: white;
+    width: 35%;
+    margin-left: 60%;
+    margin-top: 15%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.chiffre
+{
+    color: white;
+    width: 35%;
+    margin-left: 60%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.bienfaits
+{
+    margin-left: 60%;
+}
+
+.consequences
+{
+    margin-left: 60%;
+}
+
+.fiche h1
+{
+    margin-left: 40%;
+    top: 2%;
+    font-size: 60px;
+    font-style: bold;
+    font-weight: 900;
+}
+
+.arrows
+{
+    position: absolute;
+    left: 94%;
+    top: 83%;
+}
+
+.arrows .up
+{
+    position: absolute;
+    display: inline;
+    margin-bottom: 40px;
+}
+
+.arrows .down 
+{
+    position: absolute;
+    display: inline;
+    margin-top: 40px;
+}
+
+ /* AVOCAT */ 
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.ficheavocat {
+    
+    margin: 40px auto;
+    padding: 20px;
+    background-image: url(../images/fond.png);
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    font-family: "Futura";
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.ficheavocat .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.ficheavocat .close:hover {
+    color: #fff;
+}
+
+.ficheavocat .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
+
+.avocat 
+{
+margin-top: 20%;
+left: 20%;
+}
+
+.pointavocat
+{
+    font-size: 130px;
+    position: absolute;
+    color: #fff;
+    font-family: "futura";
+    margin-top: 18%;
+    left: 28%;
+    z-index: 500;
+    opacity: 0;
+}
+
+
+.image
+{
+    position:absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.image img
+{
+    width: 400px;
+}
+
+/* AIL 
+
+.ficheail {
+    z-index:200;
+    margin: 40px auto;
+    padding: 20px;
+    background-image: url(../images/fond.png);
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.ficheail .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.ficheail .close:hover {
+    color: #fff;
+}
+
+.ficheail .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
+
+.ail
+{
+margin-top: -5%;
+left: -2%;
+}
+
+*/ 
+
+/* BANANE */ 
+
+.fichebanane {
+    z-index:200;
+    margin: 40px auto;
+    padding: 20px;
+    background-image: url(../images/fond.png);
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.fichebanane .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fichebanane .close:hover {
+    color: #fff;
+}
+
+.fichebanane .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
+
+.banane
+{
+margin-top: 14%;
+left: 32%;
+}
+
+.pointbanane
+{
+    font-size: 130px;
+    position: absolute;
+    color: #fff;
+    font-family: "futura";
+    margin-top: 15%;
+    left: 50%;
+   z-index: 500;
+   opacity: 0;
+}
+
+
+/* QUINOA */ 
+
+.fichequinoa {
+    z-index:200;
+    margin: 40px auto;
+    padding: 20px;
+    background-image: url(../images/fond.png);
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.fichequinoa .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fichequinoa .close:hover {
+    color: #fff;
+}
+
+.fichequinoa .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
+
+.quinoa
+{
+margin-top: 20%;
+left: 63%;
+}
+
+.pointquinoa
+{
+    font-size: 130px;
+    position: absolute;
+    color: #fff;
+    font-family: "futura";
+    margin-top: -13%;
+    left: 42%;
+    z-index: 500;
+    opacity: 0;
+}
+
+/* KALE */ 
+
+.fichekale {
+    z-index:200;
+    margin: 40px auto;
+    padding: 20px;
+    background-image: url(../images/fond.png);
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.fichekale .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fichekale .close:hover {
+    color: #fff;
+}
+
+.fichekale .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
+
+.kale
+{
+margin-top: 23%;
+left: 25%;
+}
+
+.pointkale
+{
+    font-size: 130px;
+    position: absolute;
+    color: #fff;
+    font-family: "futura";
+    margin-top: -10%;
+    left: 43%;
+    z-index: 500;
+    opacity: 0;
+}
+
+/*  POISSON */ 
+
+.fichepoisson {
+    z-index:200;
+    margin: 40px auto;
+    padding: 20px;
+    background-image: url(../images/fond.png);
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.fichepoisson .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fichepoisson .close:hover {
+    color: #fff;
+}
+
+.fichepoisson .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
+
+.poisson
+{
+margin-top: 32%;
+left:50%;
+filter: drop-shadow(0px 3px 20px #000);
+}
+
+.pointpoisson
+{
+    font-size: 130px;
+    position: absolute;
+    color: #fff;
+    font-family: "futura";
+    margin-top: 15%;
+    left: 40%;
+    z-index: 500;
+    opacity: 0;
+}
+
+
+/* SOJA */ 
+
+.fichesoja {
+    z-index:200;
+    margin: 40px auto;
+    padding: 20px;
+    background-image: url(../images/fond.png);
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.fichesoja .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fichesoja .close:hover {
+    color: #fff;
+}
+
+.fichesoja .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
+
+.soja
+{
+margin-top: 38%;
+left: 35%;
+}
+
+.pointsoja
+{
+    font-size: 130px;
+    position: absolute;
+    color: #fff;
+    font-family: "futura";
+    margin-top: -27%;
+    left: 32%;
+    z-index: 500;
+    opacity: 0;
+}
+
+
+/* GRENADE */ 
+
+.fichegrenade {
+    z-index:200;
+    margin: 40px auto;
+    padding: 20px;
+    background-image: url(../images/fond.png);
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.fichegrenade .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fichegrenade .close:hover {
+    color: #fff;
+}
+
+.fichegrenade .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
+
+.grenade
+{
+margin-top: 30%;
+left: 66%;
+}
+
+.pointgrenade
+{
+    font-size: 130px;
+    position: absolute;
+    color: #fff;
+    font-family: "futura";
+    margin-top: -27%;
+    left: 32%;
+    z-index: 500;
+    opacity: 0;
+}
+
+
+/* CAFÉ 
+
+.fichecafe {
+    z-index:200;
+    margin: 40px auto;
+    padding: 20px;
+    background-image: url(../images/fond.png);
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.fichecafe .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fichecafe .close:hover {
+    color: #fff;
+}
+
+.fichecafe .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
+
+.cafe
+{
+margin-top: 57%;
+left: 10%;
+} */ 
+
+/* CACAO 
+
+.fichecacao {
+    z-index:200;
+    margin: 40px auto;
+    padding: 20px;
+    background-image: url(../images/fond.png);
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.fichecacao .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.fichecacao .close:hover {
+    color: #06D85F;
+}
+
+.fichecacao .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+button:hover {
+    background-image: radial-gradient(circle at center, red 0%, blue 50%);
+}
+
+.cacao
+{
+margin-top: 57%;
+left: 67%;
+}
+*/ 
+
+
+#popup2{
+  z-index: 102;
+}
+
+
+#popup3{
+  z-index: 150;
+}
+
+
+#popup4{
+  z-index: 151;
+}
+
+
+#popup5{
+  z-index: 165;
+}
+
+
+#popup6{
+  z-index: 170;
+}
+
+
+#popup7{
+  z-index: 180;
+}
+
+/* SLIDER */
+ 
