@@ -1323,3 +1323,30 @@ transition: all 300ms ease;
     background-color: #fff;
     color: #000;
 }
+
+
+
+
+
+
+
+.titre
+{
+    text-align: center;
+    color: #fff;
+    font-family: 'Futura-bold';
+    position: absolute;
+    font-size: 40px;
+    z-index: 100;
+    top: -15%;
+    left: 15%;
+}
+
+
+
+.con
+{
+    margin-top: 10%;
+    width: 450px;
+        line-height: 30px;
+}
